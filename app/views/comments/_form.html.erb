@@ -13,30 +13,8 @@
 
   <div class="field">
     <%= form.label :author %>
-<<<<<<< HEAD
     <%= form.text_field :author, id: :comment_author, :class => 'form-control', placeholder: 'Your name here' %>
-  </div>
-
-  <div class="field">
-    <%= form.hidden_field :post_id, value: @post.id %>
-  </div>
-
-
-  <div class="field">
-    <%= form.label :comment_entry %>
-    <%= form.text_area :comment_entry, id: :comment_comment_entry, :class => 'form-control' %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit "Submit Comment", :class => 'btn btn-primary' %>
-  </div>
-<% end %>
-
-
-
-=======
-    <%= form.text_field :author, id: :comment_author %>
-  </div>
+   </div>
 
   <div class="field">
     <%= form.label :comment_entry %>
@@ -48,7 +26,7 @@
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Submit Comment", :class => 'btn btn-primary'%>
   </div>
 <% end %>
->>>>>>> cf59bc5... add comments
+
