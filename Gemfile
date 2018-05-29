@@ -32,7 +32,7 @@ gem 'devise'
 
 gem 'gravatarify'
 gem 'carrierwave'
-
+gem 'kaminari'
 
 
 
